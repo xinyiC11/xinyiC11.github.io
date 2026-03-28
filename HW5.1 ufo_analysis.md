@@ -33,10 +33,9 @@ For this visualization, I implemented a **tooltip** and a **year slider**. The t
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
 <script>
-  vegaEmbed('#vis1', '/ufo_shapes.json').catch(console.error);
-  vegaEmbed('#vis2', '/ufo_interactive.json').catch(console.error);
+  vegaEmbed('#vis1', '{{ site.baseurl }}/ufo_shapes.json').catch(console.error);
+  vegaEmbed('#vis2', '{{ site.baseurl }}/ufo_interactive.json').catch(console.error);
 </script>
-
 ---
 
 ### Links

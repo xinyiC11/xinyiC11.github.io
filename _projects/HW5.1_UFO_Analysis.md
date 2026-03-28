@@ -20,7 +20,7 @@ In this project, I used Python, Altair, and Vega-Lite to analyze a dataset of gl
 
 This horizontal bar chart visualizes the distribution of different UFO shapes reported in the dataset. I used a horizontal bar chart where the y-axis represents the **nominal** encoding for the UFO shapes, and the x-axis represents the **quantitative** count of sightings. The shapes are sorted to quickly identify the most common types. For design, I chose **'steelblue'** to maintain visual clarity.
 
-<vegachart schema-url="{{ site.baseurl }}/ufo_shapes.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_shapes.json" style="width: 100%"></vegachart>
 
 ---
 
@@ -31,10 +31,11 @@ The second plot explores the relationship between the date of a sighting and the
 **Interactivity Discussion:**
 For this visualization, I implemented a **tooltip** and a **year slider**. The tooltip allows users to hover over any data point to view specific details like the city, shape, and duration. The year slider provides a crucial interactive filter that manages the high density of points; it helps users focus on sightings from a specific year, making the entire visualization much clearer and more suitable for granular analysis. This combination of Log Scale and Interactivity enables a better understanding of patterns over time within a complex dataset.
 
-<vegachart schema-url="{{ site.baseurl }}/ufo_interactive.json" style="width: 100%"></vegachart>
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_interactive.json" style="width: 100%"></vegachart>
 
 ---
 
 ### Links
 - [The Data](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/ufo-scrubbed-geocoded-time-standardized-00.csv)
-- [The Analysis (GitHub Notebook)](https://github.com/xinyiC11/xinyiC11.github.io/blob/main/IS445_HW5_1.ipynb)
+- [The Analysis](https://github.com/xinyiC11/xinyiC11.github.io/blob/main/python_notebooks/IS445_HW5_1.ipynb)

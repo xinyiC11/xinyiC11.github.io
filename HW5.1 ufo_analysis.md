@@ -33,10 +33,12 @@ For this visualization, I implemented a **tooltip** and a **year slider**. The t
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
 <script>
-  vegaEmbed('#vis1', '{{ site.baseurl }}/ufo_shapes.json').catch(console.error);
-  vegaEmbed('#vis2', '{{ site.baseurl }}/ufo_interactive.json').catch(console.error);
+  var spec1 = "{{ site.baseurl }}/ufo_shapes.json";
+  var spec2 = "{{ site.baseurl }}/ufo_interactive.json";
+
+  vegaEmbed('#vis1', spec1).catch(console.error);
+  vegaEmbed('#vis2', spec2).catch(console.error);
 </script>
----
 
 ### Links
 - [The Data](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/ufo-scrubbed-geocoded-time-standardized-00.csv)

@@ -15,14 +15,14 @@ custom_js:
 
 This project analyzes the UFO sightings dataset to uncover patterns in reported alien encounters. The goal is to visualize how sighting shapes vary and how these reports have changed over time.
 
-## Visualization 1: UFO Shapes Distribution
+### Visualization 1: UFO Shapes Distribution
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_shapes.json" style="width: 100%"></vegachart>
 
 **Write-up for Plot 1:**
 This bar chart shows the total count of sightings for each UFO shape. I used Nominal encoding for the x-axis (shapes) and Quantitative encoding for the y-axis (count). I applied a categorical color scheme based on the "shape" variable to make different categories easier to distinguish. For data transformation, I used Pandas in my Python notebook to group the data by shape and filter out null values, ensuring only valid shape records are displayed.
 
-## Visualization 2: Temporal Trends & Interactive Exploration
+### Visualization 2: Temporal Trends & Interactive Exploration
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_interactive.json" style="width: 100%"></vegachart>
 

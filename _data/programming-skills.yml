@@ -18,7 +18,3 @@
   level: Intermediate
   color: success
 
-  - name: Tableau & PowerBI
-  percentage: 100
-  level: Expert
-  color: warning

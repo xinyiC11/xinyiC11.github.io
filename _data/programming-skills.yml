@@ -13,8 +13,8 @@
   level: Expert
   color: secondary
 
-  - name: R
+- name: R
   percentage: 60
   level: Intermediate
-  color: success
+  color: secondary
 

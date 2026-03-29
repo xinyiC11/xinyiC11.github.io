@@ -1,14 +1,24 @@
-- name: HTML5/CSS3
-  percentage: 90
-  level: Expert
+- name: Altair
+  percentage: 70
+  level: Intermediate
   color: danger
 
-- name: Go
-  percentage: 5
-  level: Beginner
-  color:
+- name: SQL
+  percentage: 90
+  level: Expert
+  color: info
 
 - name: Python
   percentage: 90
   level: Expert
   color: secondary
+
+  - name: R
+  percentage: 60
+  level: Intermediate
+  color: success
+
+  - name: Tableau & PowerBI
+  percentage: 100
+  level: Expert
+  color: warning

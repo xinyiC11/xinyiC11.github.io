@@ -1,7 +1,7 @@
 - name: Tableau
   percentage: 95
   level: Expert
-  color: danger
+  color: warning
 
 - name: Power BI
   percentage: 90

@@ -11,40 +11,35 @@ custom_js:
 ---
 
 
-# Example including vega-lite
+# UFO Sightings Exploration
 
-Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
+This project analyzes the UFO sightings dataset to uncover patterns in reported alien encounters. The goal is to visualize how sighting shapes vary and how these reports have changed over time.
 
-We can use a vegachart HTML tag like so:
+## Visualization 1: UFO Shapes Distribution
 
-```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-```
+<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_shapes.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
+**Write-up for Plot 1:**
+This bar chart shows the total count of sightings for each UFO shape. I used Nominal encoding for the x-axis (shapes) and Quantitative encoding for the y-axis (count). I applied a categorical color scheme based on the "shape" variable to make different categories easier to distinguish. For data transformation, I used Pandas in my Python notebook to group the data by shape and filter out null values, ensuring only valid shape records are displayed.
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+## Visualization 2: Temporal Trends & Interactive Exploration
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_interactive.json" style="width: 100%"></vegachart>
 
-## Search The Data & Methods
+**Write-up for Plot 2 & Interactivity:**
+This line chart visualizes the number of sightings over the years using Temporal encoding for the x-axis. To make the chart interactive, I added a dropdown selection filter for UFO shapes. This allows users to pick a specific shape and see its individual trend, which helps reduce visual clutter compared to showing all lines at once. In Python, I transformed the date column into a proper datetime format and aggregated the sightings by year to create a smooth timeline.
 
-Below is where we can put some links to both the data and the analysis code as buttons:
+---
 
-```
+## Data & Methods
+
+As per the requirements, here are the links to the original data source and the analysis notebook:
+
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
-</div>
-```
-
-<!-- these are written in a combo of html and liquid --> 
-
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/xinyiC11/xinyiC11.github.io/blob/main/python_notebooks/你的文件名.ipynb" text="The Analysis" %}
 </div>
 
-<div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}

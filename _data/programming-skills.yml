@@ -11,7 +11,7 @@
 - name: Python
   percentage: 90
   level: Expert
-  color: #FFC0CB
+  color: "#FFC0CB"
 
 - name: R
   percentage: 60

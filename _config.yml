@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : Xinyi(Krista) Chen 
 description         : >-
-                       MSIM @UIUC
+                      MSIM @UIUC
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          :                     # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
@@ -37,7 +37,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Xinyi Chen
-  image             : https://github.com/xinyiC11/xinyiC11.github.io/blob/main/IMG_1344.jpg
+  image             : /IMG_1344.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : xinyichen0308@gmail.com

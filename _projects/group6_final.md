@@ -58,7 +58,7 @@ This analysis was conducted using Python and the Altair visualization library. A
 * **Social Indicators**: [Census Data - Socioeconomic Indicators](https://data.cityofchicago.org/)
 
 <div class="left">
-{% include elements/button.html link="https://data.cityofchicago.org/" text="View Raw Data" %}
+{% include elements/button.html link="https://data.cityofchicago.org/Public-Safety/Crimes-2026/f6bk-yv3r/about_data" text="View Raw Data" %}
 </div>
 
 <div class="right">

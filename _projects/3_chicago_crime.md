@@ -1,7 +1,7 @@
 ---
 name: Chicago Crime Analysis 2026
 tools: [Python, Altair, Vega-Lite]
-image: https://raw.githubusercontent.com/joeywang02/IS445_Final/main/final_visualization.png
+image: https://raw.githubusercontent.com/joeywang02/IS445_Final/main/Screenshot 2026-04-26 at 20.37.05.png
 description: An interactive data journalism article exploring the spatial, temporal, and socioeconomic dimensions of crime in Chicago.
 custom_js:
   - vega.min

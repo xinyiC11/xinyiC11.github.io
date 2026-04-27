@@ -26,6 +26,12 @@ To understand safety in a city as large as Chicago, we need to look at both the 
 **How to Use the Dashboard:**
 This is a "linked" visualization. You can click on any **Police District** on the map to filter the data. Once a district is selected, the bar chart on the right will show the most common types of crime in that specific area, and the timeline at the bottom will show how crime levels changed over the first half of 2026. You can also click on a specific **Crime Type** in the bar chart to see its trend over time. This tool helps residents see the unique safety profile of their own community compared to the rest of the city.
 
+**Key Findings from the Dashboard:**
+* When viewing the map without filters, District 12 shows the darkest orange color, indicating it has the highest total volume of reported crimes in the city so far in 2026.
+* Across the entire city, Theft is the most frequent crime type, significantly outnumbering other categories like Battery or Criminal Damage.
+* Interestingly, safety patterns change when you look at specific crimes. By clicking "THEFT" on the bar chart, the map updates to show that District 18 actually reports the highest number of thefts, even surpassing the overall leader, District 12. This suggests that certain areas face very specific types of security challenges.
+* A closer look at the timeline for District 18 reveals a rhythmic pattern: theft incidents frequently **peak at the beginning of each month**. This specific insight could help local authorities better schedule their security resources during these high-risk days.
+
 ---
 
 ## 2. The Weekly Pulse - When is Crime Most Frequent?

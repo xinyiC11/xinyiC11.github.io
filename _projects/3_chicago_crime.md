@@ -24,8 +24,11 @@ To understand safety in a city as large as Chicago, we need to look at both the 
 <vegachart schema-url="https://raw.githubusercontent.com/joeywang02/IS445_Final/main/json/interactive_dashboard_supernew1.json" style="width: 100%"></vegachart>
 
 **How to Use the Dashboard:**
-This is a "linked" visualization. You can click on any **Police District** on the map to filter the data. Once a district is selected, the bar chart on the right will show the most common types of crime in that specific area, and the timeline at the bottom will show how crime levels changed over the first half of 2026. You can also click on a specific **Crime Type** in the bar chart to see its trend over time. This tool helps residents see the unique safety profile of their own community compared to the rest of the city.
-
+This is a "linked" visualization. 
+* Filter by Location: Click on a District on the map to see its local crime ranking and timeline.
+* Filter by Category: Click on a Crime Type in the bar chart to see how that specific incident is distributed across the city.
+* Combined View: You can select both a District and a Crime Type at the same time. This allows you to dive deep into the specific timeline of a single crime category within a specific neighborhood (for example, seeing exactly when "Thefts" peak in "District 18")
+  
 **Key Findings from the Dashboard:**
 * When viewing the map without filters, District 12 shows the darkest orange color, indicating it has the highest total volume of reported crimes in the city so far in 2026.
 * Across the entire city, Theft is the most frequent crime type, significantly outnumbering other categories like Battery or Criminal Damage.

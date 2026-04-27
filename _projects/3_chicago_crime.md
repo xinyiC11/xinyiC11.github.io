@@ -21,7 +21,7 @@ Crime is not just a set of numbers, it is a complex issue shaped by geography, t
 
 To understand safety in a city as large as Chicago, we need to look at both the big picture and specific neighborhoods. Our central dashboard allows you to explore these geographic patterns interactively.
 
-<vegachart schema-url="https://raw.githubusercontent.com/joeywang02/IS445_Final/main/json/interactive_dashboard_supernew.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://raw.githubusercontent.com/joeywang02/IS445_Final/main/json/interactive_dashboard_supernew1.json" style="width: 100%"></vegachart>
 
 **How to Use the Dashboard:**
 This is a "linked" visualization. You can click on any **Police District** on the map to filter the data. Once a district is selected, the bar chart on the right will show the most common types of crime in that specific area, and the timeline at the bottom will show how crime levels changed over the first half of 2026. You can also click on a specific **Crime Type** in the bar chart to see its trend over time. This tool helps residents see the unique safety profile of their own community compared to the rest of the city.

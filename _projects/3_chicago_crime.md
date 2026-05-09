@@ -25,7 +25,7 @@ Chicago is a massive city, but safety isn't spread out evenly. Some areas face c
 
 To understand safety in a city as large as Chicago, we need to look at both the big picture and specific neighborhoods. Our central dashboard allows you to explore these geographic patterns interactively.
 
-<vegachart schema-url="https://raw.githubusercontent.com/joeywang02/IS445_Final/main/json/interactive_dashboard_supernew1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://raw.githubusercontent.com/joeywang02/IS445_Final/main/json/interactive_dashboard_supernew2.json" style="width: 100%"></vegachart>
 
 **How to Use the Dashboard:**
 This is a "linked" visualization. 
@@ -82,5 +82,5 @@ This analysis was conducted using Python and the Altair visualization library. A
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/JoeyWang02/IS445_Final/blob/main/final2&3_Workbook_2.ipynb" text="Analysis Notebook" %}
+{% include elements/button.html link="https://github.com/JoeyWang02/IS445_Final/blob/main/final2&3_Workbook_3.ipynb" text="Analysis Notebook" %}
 </div>
